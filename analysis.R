@@ -3,9 +3,7 @@ setwd("/Users/bretbeheim/Dropbox/projects/2021/swc-spring-school/cardio-multisit
 
 library(readxl)
 
-# dat <- read_xlsx("Data_Final_092315.xlsx")
-# dat <- read_xlsx("Data_Final_092315 copy.xlsx")
-dat <- read_xlsx("Data_Final_092315 BAB.xlsx") # USE THIS ONE
+dat <- read_xlsx("Data_Final_092315 BAB.xlsx")
 
 dat$CoronaryCA <- as.numeric(dat$CoronaryCA)
 dat$Age_Part <- as.numeric(dat$Age_Part)
